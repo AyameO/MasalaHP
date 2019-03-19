@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<title>Masala GV</title>
+  <font size="4">
+    <div style="font-size:18pt">
+    <div align="center">
+    <script language="JavaScript" type="text/javascript">
+     var myString = "～ Welcome to MasalaGV official site ～"
+
+    var cArray = new Array("black", "black", "black", "black");
+    var cNum = 0;
+
+    for (var i=0; i < myString.length; i++) {
+    	var tempStr = myString.charAt(i);
+    	cNum = i % cArray.length;
+    	document.write(tempStr.fontcolor(cArray[cNum]));
+    }
+var now, hour, minute;
+now = new Date();
+hour = now.getHours();
+minute = now.getMinutes();
+document.write("<h5>現在時刻：");
+document.write(hour, "時", minute, "分", "</h5>");
+
+</script>
+</head>
+
+<body>
+<font size="4">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="aboutus.html">About us</a></li>
+<li><a href="activity.html">Activity</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<br />
+<br />
+<br />
+<h1>Masala外部報告会のお知らせ</h1>
+<br />
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th>日付</th>
+<td>７月２日</td>
+</tr>
+<tr>
+<th>場所</th>
+<td>青山学院大学</td>
+</tr>
+<tr>
+<th>教室</th>
+<td>17号館17510教室</td>
+</tr>
+</table>
+<br />
+<img src="images/imageoutside.JPG" alt="Masala GV" width="900" height="600" /></a>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>他チーム外部報告会のお知らせ</h1>
+<br />
+<p>・AnggrekGV</p>
+<br />
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th>日付</th>
+<td>６月２５日</td>
+</tr>
+<tr>
+<th>場所</th>
+<td>青山学院大学</td>
+</tr>
+<tr>
+<th>教室</th>
+<td>17号館17510教室</td>
+</tr>
+</table>
+<br />
+<br />
+<p>・灯GV</p>
+<br />
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th>日付</th>
+<td>７月９日</td>
+</tr>
+<tr>
+<th>場所</th>
+<td>青山学院大学</td>
+</tr>
+<tr>
+<th>教室</th>
+<td>17号館17510教室</td>
+</tr>
+</table>
+<br />
+<br />
+<br />
+<br />
+<address>
+  Shanti Shanti 所属 Masala GV<br />
+  Copyright Masala GV. All rights reserved.
+</address>
+<a href="masalahome.html"><img src="images/imagemasalalogo.JPG" alt="Masala GV" width="400" height="270" /></a>
+</body>
+</html>

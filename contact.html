@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<title>Masala GV</title>
+  <font size="4">
+    <div style="font-size:18pt">
+    <div align="center">
+    <script language="JavaScript" type="text/javascript">
+     var myString = "～ Welcome to MasalaGV official site ～"
+
+    var cArray = new Array("black", "black", "black", "black");
+    var cNum = 0;
+
+    for (var i=0; i < myString.length; i++) {
+    	var tempStr = myString.charAt(i);
+    	cNum = i % cArray.length;
+    	document.write(tempStr.fontcolor(cArray[cNum]));
+    }
+var now, hour, minute;
+now = new Date();
+hour = now.getHours();
+minute = now.getMinutes();
+document.write("<h5>現在時刻：");
+document.write(hour, "時", minute, "分", "</h5>");
+</script>
+</head>
+
+<body>
+
+<font size="4">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="aboutus.html">About us</a></li>
+<li><a href="activity.html">Activity</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<br />
+<br />
+<br />
+<br />
+<h1>Contact US by SNS</h1>
+<br />
+ <p>facebook ：<a href="https://www.facebook.com/Masala-GV-1647317495529585/">[ Masala GV ]</a></p>
+ <br />
+  <p>twitter ：<a href="https://twitter.com/MasalaGV">[ @MasalaGV ]</a></p>
+  <br />
+  <br />
+  <br />
+  <br />
+<h2>Contact US by e-mail</h2>
+<br />
+<p>E-mail Address : masalagv.2016@gmail.com</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3>Access Map to Aoyamagakuin University</h3>
+<br />
+<script type="text/javascript">
+egmap_width = "500px";
+egmap_height = "500px";
+egmap_lat = 35.6607887;
+egmap_lng = 139.71031949999997;
+egmap_zoom = 17;
+egmap_open_info_window_type = 1;
+egmap_wheel_zoom_type = 0;
+egmap_tags = decodeURIComponent("%E9%9D%92%E5%B1%B1%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6");
+</script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://www.egmap.jp/amc.js" charset="utf-8"></script>
+<p class="egmap_copyright" style="width: 500px;">powered by <a href="http://www.egmap.jp/" target="_blank">egmap.jp</a></p>
+<br />
+<br />
+<br />
+<address>
+  Shanti Shanti 所属 Masala GV<br />
+  Copyright Masala GV. All rights reserved.
+</address>
+<a href="masalahome.html"><img src="images/imagemasalalogo.JPG" alt="Masala GV" width="400" height="270" /></a>
+</body>
+</html>
